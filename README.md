@@ -13,34 +13,34 @@ This is for change the default of the folder directory
 create file **.babelrc** on directory root with the code below
 
     {
-		"plugins": [
-		  [
-			"module-resolver",
-			{
-			  "root": ["./src"],
-			  "alias": {
-				"assets": "./src/assets",
-				"components": "./src/components",
-				"constants": "./src/constants",
-				"locales": "./src/locales",
-				"screens": "./src/screens",
-				"helpers": "./src/helpers",
-				"navigations": "./src/navigations",
-			  },
-			  "extensions": [".js", ".ios.js", ".android.js"],
-			  "cwd": "packagejson"
-			}
-		  ]
-		]
+    "plugins": [
+        [
+        "module-resolver",
+        {
+            "root": ["./src"],
+            "alias": {
+            "assets": "./src/assets",
+            "components": "./src/components",
+            "constants": "./src/constants",
+            "locales": "./src/locales",
+            "screens": "./src/screens",
+            "helpers": "./src/helpers",
+            "navigations": "./src/navigations",
+            },
+            "extensions": [".js", ".ios.js", ".android.js"],
+            "cwd": "packagejson"
+        }
+        ]
+    ]
 	}
 
 create file **jsconfig.json** on directory root with the code below
 
     {
-		"compilerOptions": {
-			"baseUrl": "src"
-		},
-		"include": ["src"]
+    "compilerOptions": {
+        "baseUrl": "src"
+    },
+    "include": ["src"]
 	}
 
 <br>
@@ -59,9 +59,9 @@ after this copy your assets font to**"./src/assets/fonts/Gotham"**this directory
 <br>
 ##### 3. Start The Project
 
-	npm install //dont forget to install node_modules first
-    npx react-native run-android //for android
-	npx react-native run-ios //for ios
+	$ npm install //dont forget to install node_modules first
+    $ npx react-native run-android //for android
+	$ npx react-native run-ios //for ios
 
 
 To see the complete documentation for using modules you can visit /modules.
