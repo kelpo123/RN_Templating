@@ -77,5 +77,6 @@ After this clean and rebuild your project.
 	$ npx react-native run-ios //for ios
 
 
-To see the complete documentation for using modules you can visit [/documentation](https://github.com/kelpo123/RN_Templating/documentations).
+To see the complete documentation for using modules you can visit [/documentation](https://github.com/kelpo123/RN_Templating/tree/master/documentations).
+<br>
 ###End
