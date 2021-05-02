@@ -1,0 +1,4 @@
+{
+  "app-name": "RN_Templating",
+  "hello": "Hi %{name}"
+}
